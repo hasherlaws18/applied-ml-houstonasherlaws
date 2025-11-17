@@ -39,4 +39,3 @@ Ridge: similar performance to linear regression
 
 Elastic Net: best overall model
 Also tested polynomial regression on a single-feature case (family_size). Higher-degree polynomials didn’t improve predictions because the feature had weak correlation with fare.
-
