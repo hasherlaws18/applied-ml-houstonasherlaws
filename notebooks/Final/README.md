@@ -11,7 +11,7 @@ YrSold (Year Sold)
 
 LotArea (Lot Size)
 
-1. Data Exploration
+### 1. Data Exploration
 
 The dataset has 81 columns.
 
@@ -21,12 +21,12 @@ I created histograms and a heatmap to understand the data.
 
 The heatmap showed that MoSold, YrSold, and LotArea do not have a strong correlation with SalePrice.
 
-2. Feature Selection
+### 2. Feature Selection
 
 I used the features MoSold, YrSold, and LotArea for prediction.
 The target variable is SalePrice.
 
-3. Models Used
+### 3. Models Used
 
 I tested three models:
 
@@ -38,7 +38,7 @@ Pipeline 2: Polynomial Features (degree 3) + Scaler + Linear Regression
 
 Pipeline 2 performed the best.
 
-1. Results
+### 4. Results
 
 Pipeline 2 gave better results than the baseline and the first pipeline.
 
@@ -46,13 +46,13 @@ Scaling alone did not change performance.
 
 Polynomial features helped the most.
 
-5. Challenges
+### 5. Challenges
 
 Choosing only three features from the 81 columns.
 
 Some features did not strongly relate to SalePrice.
 
-6. Future Work
+### 6. Future Work
 
 Try using more relevant features.
 
